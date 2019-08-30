@@ -10,8 +10,31 @@
     <link rel="stylesheet" media="all" href="css/app.css">
     <meta name="theme-color" content="#fff">
     <link rel="shortcut icon" href="favicon.ico">
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i)
+      {
+        w[l] = w[l] || [];
+        w[l].push(
+        {
+          'gtm.start': new Date().getTime(),
+          event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-K5GT3XT');
+
+    </script>
+    <!-- End Google Tag Manager -->
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5GT3XT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- BEGIN content -->
     <header></header>
     <header class="header-line">
@@ -204,12 +227,7 @@
           </label>
           <div class="after"></div>
           <div class="error">Ви не вибрали диллера</div>
-          <ul class="dd-menu">
-            <li class="s-dealer">Київ - Авто-Київ - 1</li>
-            <li class="s-dealer">Київ - Авто-Київ - 2</li>
-            <li class="s-dealer">Київ - Авто-Київ - 3</li>
-            <li class="s-dealer">Київ - Авто-Київ - 4</li>
-          </ul>
+          <ul class="dd-menu"></ul>
         </fieldset>
         <fieldset class="stop">
           <input id="name" type="text" name="name" data-min="3" required="">
